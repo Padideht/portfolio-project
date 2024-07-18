@@ -2,8 +2,29 @@
   --main-font-family: "Playfair Display", serif;
   --text-font-family: "Poppins", sans-serif;
   --background-header: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  --text-color: #fff;
 }
 header {
   background: var(--background-header);
   text-align: center;
+  padding: 160px 20px;
+  border-radius: 4px;
+  color: var(--text-color);
+  font-family: var(--text-font-family);
+}
+p {
+  font-size: 36px;
+  font-weight: bold;
+}
+h1 {
+  font-family: var(--main-font-family);
+  font-size: 96px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24;
+  font-weight: normal;
+}
+.btn-style {
+  padding: 15px 30px !important;
 }
