@@ -1,9 +1,21 @@
 :root {
   --main-font-family: "Playfair Display", serif;
   --text-font-family: "Poppins", sans-serif;
-  --background-header: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  --background-header: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   --text-color: #fff;
 }
+
+@media (max-width: 960px) {
+  .descriptions {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .title {
+    font-size: 35px !important;
+    text-align: center;
+  }
+}
+
 header {
   background: var(--background-header);
   text-align: center;
@@ -12,7 +24,7 @@ header {
   color: var(--text-color);
   font-family: var(--text-font-family);
 }
-p {
+.greetings {
   font-size: 36px;
   font-weight: bold;
 }
@@ -27,4 +39,19 @@ h2 {
 }
 .btn-style {
   padding: 15px 30px !important;
+}
+
+.introduction {
+  font-family: var(--text-font-family);
+  font-size: 18px;
+}
+.title {
+  font-family: var(--main-font-family);
+  font-size: 50px;
+}
+
+.descriptions {
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  line-height: 2;
 }
