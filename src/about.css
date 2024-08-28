@@ -1,0 +1,6 @@
+:root {
+  --main-font-family: "Playfair Display", serif;
+  --text-font-family: "Poppins", sans-serif;
+  --background-header: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  --text-color: #fff;
+}
