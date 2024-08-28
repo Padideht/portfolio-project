@@ -1,7 +1,6 @@
 :root {
   --main-font-family: "Playfair Display", serif;
   --text-font-family: "Poppins", sans-serif;
-  --background-header: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   --text-color: #fff;
   --btn-color: #6c63ff;
 }
@@ -39,12 +38,6 @@
   color: var(--text-color);
   border-radius: 4px;
   padding: 15px 30px;
-}
-
-.my-photo {
-  border: 1px;
-  border-color: #0c0b0b;
-  border-radius: 8px;
 }
 
 .about-section-content {
