@@ -1,0 +1,19 @@
+:root {
+  --main-font-family: "Playfair Display", serif;
+  --text-font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+
+p {
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
