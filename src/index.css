@@ -3,6 +3,8 @@
   --text-font-family: "Poppins", sans-serif;
   --background-header: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   --text-color: #fff;
+  --backgroun-color: #f9f7fe;
+  --social-icon-color: #0d6efd;
 }
 
 @media (max-width: 960px) {
@@ -54,4 +56,44 @@ h2 {
   font-family: var(--text-font-family);
   font-size: 16px;
   line-height: 2;
+}
+
+footer .contact-box {
+  background-color: var(--backgroun-color);
+  margin: 30px 20px;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+footer .contact-box h4 {
+  font-family: var(--main-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer .contact-box p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+footer .email-link {
+  font: var(--text-font-family);
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer .social-media-link {
+  margin: 10px 20px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--social-icon-color);
+  background-color: var(--backgroun-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-media-link:hover {
+  color: #fff;
+  background-color: var(--social-icon-color);
 }
